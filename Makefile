@@ -12,3 +12,4 @@ main.o: main.c
 
 clean:
 	del /Q *.o $(TARGET).exe 2>nul || echo Clean complete
+
